@@ -1,35 +1,22 @@
-# built application files
-*.apk
-*.ap_
+# IDE files
+.idea
 
-# files for the dex VM
-*.dex
-
-# java class files
-*.class
-
-# generated files
+# Generated files
 bin/
 gen/
-out/
-build/
+*.aar
+*.apk
+
+# Gradle files
 .gradle/
+build/
 
-# idea project files
-*.iml
-.idea
-*.iws
-
-# eclipse project files
-default.properties
-.metadata
-.settings
-.project
-.classpath
-
-# local configuration file (sdk path, etc)
+# Local configuration file (sdk path, etc)
 local.properties
-keystore.properties
 
-# junk
-.DS_Store
+# Local private files
+release.keystore
+
+# Log Files
+*.log
+captures/

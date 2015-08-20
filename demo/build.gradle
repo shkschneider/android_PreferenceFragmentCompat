@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId 'android.support.v4.preference'
+        minSdkVersion 7
+        targetSdkVersion 22
+        versionCode 1
+        versionName '1.0.0'
+    }
+    signingConfigs {
+        debug {
+            storeFile file('../debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable false
+            zipAlignEnabled true
+            multiDexEnabled true
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile project(':library')
+    // compile 'com.github.shkschneider:android_PreferenceFragmentCompat:{VERSION}@aar'
+}

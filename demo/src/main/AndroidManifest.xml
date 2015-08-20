@@ -1,0 +1,23 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.support.v4.preference.demo">
+
+    <application
+        android:allowBackup="true"
+        android:allowTaskReparenting="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_label"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_label">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
