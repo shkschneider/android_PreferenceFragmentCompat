@@ -1,6 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="Demo">
+
+        <Preference
+            android:selectable="false"
+            android:title="Preference" />
+
+        <CheckBoxPreference
+            android:selectable="true"
+            android:title="CheckBoxPreference" />
+
+        <EditTextPreference
+            android:selectable="true"
+            android:title="EditTextPreference" />
+
+        <SwitchPreference
+            android:selectable="true"
+            android:title="SwitchPreference" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="Application">
