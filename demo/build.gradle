@@ -41,6 +41,7 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:22.2.1'
+
     compile project(':library')
     // compile 'com.github.shkschneider:android_PreferenceFragmentCompat:{VERSION}@aar'
 }

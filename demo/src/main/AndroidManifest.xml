@@ -7,7 +7,7 @@
         android:allowTaskReparenting="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_label"
-        android:theme="@style/AppTheme">
+        android:theme="@style/android:Theme.Light">
 
         <activity
             android:name=".MainActivity"
