@@ -1,5 +1,5 @@
 <resources>
 
-    <string name="app_label">"SupportFragmentCompat"</string>
+    <string name="app_label">"PreferenceFragmentCompat"</string>
 
 </resources>
