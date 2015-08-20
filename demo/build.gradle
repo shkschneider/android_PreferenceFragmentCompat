@@ -5,8 +5,8 @@ android {
     buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId 'android.support.v4.preference'
-        minSdkVersion 7
+        applicationId 'android.support.v4.preference.demo'
+        minSdkVersion 4
         targetSdkVersion 22
         versionCode 1
         versionName '1.0.0'
