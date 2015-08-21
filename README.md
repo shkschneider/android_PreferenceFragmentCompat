@@ -9,8 +9,10 @@ Code renewed from [kolavar's](https://github.com/kolavar/android-support-v4-pref
 
 [SCREENSHOT](https://github.com/shkschneider/android_PreferenceFragmentCompat/blob/master/screenshot.png)
 
-How to add to your Gradle project
----------------------------------
+Setup
+-----
+
+**Gradle**
 
 Add JitPack to top-level build.gradle file (if not done already):
 
@@ -33,6 +35,28 @@ Add this library dependency:
 }</pre>
 
 See [demo/build.gradle](https://github.com/shkschneider/android_PreferenceFragmentCompat/blob/master/demo/build.gradle).
+
+**AAR**
+
+https://jitpack.io/com/github/shkschneider/android_PreferenceFragmentCompat/1.0.0/android_PreferenceFragmentCompat-1.0.0.aar
+
+Specifications
+--------------
+
+**API**
+
+- minSdkVersion **[4](https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#DONUT)**
+- targetSdkVersion [22](https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#LOLLIPOP_MR1)
+
+**Libraries**
+
+- [com.android.support:support-v4](https://developer.android.com/tools/support-library/features.html#v4)
+
+**Uses**
+
+- [Gradle 1.3.0](http://tools.android.com/tech-docs/new-build-system)
+- [Android Studio 1.3.1](https://developer.android.com/sdk/index.html)
+- [android.support.v4.app.Fragment](https://developer.android.com/reference/android/support/v4/app/Fragment.html)
 
 Usage
 -----
@@ -59,4 +83,9 @@ Your (**now Compat**) *PreferenceFragment*:
 
 API is the same as [android.preference.PreferenceFragment](https://developer.android.com/reference/android/preference/PreferenceFragment.html) except it (**now Compat**) extends [android.support.v4.app.Fragment](https://developer.android.com/reference/android/support/v4/app/Fragment.html), hence PreferenceFragment**Compat**.
 
-Hope you enjoy!
+Author
+------
+
+[ShkSchneider](https://shkschneider.me/)
+
+https://github.com/shkschneider/android_PreferenceFragmentCompat
