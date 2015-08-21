@@ -16,8 +16,8 @@ public class MainActivity extends FragmentActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setLogo(getResources().getDrawable(R.drawable.ic_launcher, null));
-        toolbar.setTitle(getResources().getString(R.string.app_label));
-        toolbar.setSubtitle("Demo");
+        toolbar.setTitle("Demo");
+        toolbar.setSubtitle(getResources().getString(R.string.app_label));
         toolbar.inflateMenu(R.menu.main);
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
 

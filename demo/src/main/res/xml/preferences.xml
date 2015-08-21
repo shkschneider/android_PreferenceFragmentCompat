@@ -7,18 +7,22 @@
         android:title="Demo">
 
         <Preference
-            android:selectable="false"
+            android:key="preference"
+            android:selectable="true"
             android:title="Preference" />
 
         <CheckBoxPreference
+            android:key="checkBox"
             android:selectable="true"
             android:title="CheckBoxPreference" />
 
         <EditTextPreference
+            android:key="editText"
             android:selectable="true"
             android:title="EditTextPreference" />
 
         <SwitchPreference
+            android:key="switch"
             android:selectable="true"
             android:title="SwitchPreference" />
 
