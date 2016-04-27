@@ -1,4 +1,4 @@
-PreferenceFragmentCompat [![JitPack](https://img.shields.io/github/tag/shkschneider/android_PreferenceFragmentCompat.svg?label=JitPack)](https://jitpack.io/#shkschneider/android_PreferenceFragmentCompat/1.1.0)
+PreferenceFragmentCompat [![JitPack](https://img.shields.io/github/tag/shkschneider/android_PreferenceFragmentCompat.svg?label=JitPack)](https://jitpack.io/#shkschneider/android_PreferenceFragmentCompat/1.2.0)
 ========================
 
 - Unofficial PreferenceFragment compatibility layer for Android **API-4 and UP**.
@@ -31,14 +31,14 @@ Add this library dependency:
 
 <pre>dependencies {
     // ...
-    compile 'com.github.shkschneider:android_PreferenceFragmentCompat:1.1.0@aar'
+    compile 'com.github.shkschneider:android_PreferenceFragmentCompat:1.2.0@aar'
 }</pre>
 
 See [demo/build.gradle](https://github.com/shkschneider/android_PreferenceFragmentCompat/blob/master/demo/build.gradle).
 
 **AAR**
 
-https://jitpack.io/com/github/shkschneider/android_PreferenceFragmentCompat/1.1.0/android_PreferenceFragmentCompat-1.1.0.aar
+https://jitpack.io/com/github/shkschneider/android_PreferenceFragmentCompat/1.2.0/android_PreferenceFragmentCompat-1.2.0.aar
 
 Specifications
 --------------
