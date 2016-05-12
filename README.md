@@ -9,7 +9,7 @@ Code renewed from [kolavar's](https://github.com/kolavar/android-support-v4-pref
 
 Updated to API-23.
 
-![SCREENSHOT](https://github.com/shkschneider/android_PreferenceFragmentCompat/blob/master/screenshot.png)
+<img src="https://github.com/shkschneider/android_PreferenceFragmentCompat/blob/master/screenshot.png" width="320">
 
 Setup
 -----
